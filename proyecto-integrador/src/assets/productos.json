@@ -1,0 +1,134 @@
+[
+  {
+    "id":1,
+    "nombre": "Smart TV Samsung 55\" Crystal UHD 4K",
+    "precio": 849999,
+    "stock": 15,
+    "marca": "Samsung",
+    "categoria": "TV",
+    "detalles": "Resolución 4K, Procesador Crystal 4K, Sistema operativo Tizen, 3 puertos HDMI, 2 USB.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":2,
+    "nombre": "Smart TV LG 43\" Full HD ThinQ AI",
+    "precio": 520000,
+    "stock": 8,
+    "marca": "LG",
+    "categoria": "TV",
+    "detalles": "Resolución Full HD, Inteligencia Artificial ThinQ, Control por voz, Bluetooth integrado.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":3,
+    "nombre": "Smart TV Philips 65\" 4K Ambilight",
+    "precio": 1250000,
+    "stock": 4,
+    "marca": "Philips",
+    "categoria": "TV",
+    "detalles": "Tecnología Ambilight de 3 lados, Dolby Vision y Dolby Atmos, Android TV.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": false
+  },
+  {
+    "id":4,
+    "nombre": "Heladera No Frost Whirlpool 400L Inverter",
+    "precio": 1450000,
+    "stock": 6,
+    "marca": "Whirlpool",
+    "categoria": "Electrodomésticos",
+    "detalles": "Capacidad 400 litros, Eficiencia energética A++, Tecnología Inverter, Compartimento extra frío.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": false
+  },
+  {
+    "id":5,
+    "nombre": "Lavarropas Automático Drean Next 8kg",
+    "precio": 780000,
+    "stock": 12,
+    "marca": "Drean",
+    "categoria": "Electrodomésticos",
+    "detalles": "Capacidad de carga 8kg, 1200 RPM de centrifugado, 34 combinaciones de lavado, Display digital.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":6,
+    "nombre": "Microondas BGH Quick Chef 20L",
+    "precio": 185000,
+    "stock": 25,
+    "marca": "BGH",
+    "categoria": "Electrodomésticos",
+    "detalles": "Capacidad 20 litros, 5 niveles de potencia, Función descongelamiento automático, Reloj digital.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":7,
+    "nombre": "Cinta de Correr Motorizada Olmo Fitness",
+    "precio": 920000,
+    "stock": 5,
+    "marca": "Olmo",
+    "categoria": "Deportes",
+    "detalles": "Motor de 2.0 HP, Velocidad hasta 16 km/h, 12 programas preestablecidos, Pantalla LCD.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": false
+  },
+  {
+    "id": 8,
+    "nombre": "Bicicleta Fija Magnética Randers",
+    "precio": 340000,
+    "stock": 14,
+    "marca": "Randers",
+    "categoria": "Deportes",
+    "detalles": "Sistema magnético, 8 niveles de esfuerzo, Monitor digital de pulso, tiempo y calorías.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":9,
+    "nombre": "Multigimnasio Gomon 45kg",
+    "precio": 680000,
+    "stock": 3,
+    "marca": "Gomon",
+    "categoria": "Deportes",
+    "detalles": "Torre de pesas de 45kg, Permite trabajar piernas, pecho, brazos y espalda, Estructura reforzada.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": false
+  },
+  {
+    "id":10,
+    "nombre": "Taladro Percutor Inalámbrico DeWalt 20V",
+    "precio": 295000,
+    "stock": 20,
+    "marca": "DeWalt",
+    "categoria": "Herramientas",
+    "detalles": "Mandril de 13mm, 2 velocidades mecánicas, Incluye 2 baterías de litio y maletín rígido.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":11,
+    "nombre": "Amoladora Angular Bosch 115mm 700W",
+    "precio": 115000,
+    "stock": 18,
+    "marca": "Bosch",
+    "categoria": "Herramientas",
+    "detalles": "Potencia de 700W, Diámetro del disco 115mm, Guarda de protección integrada, Mango lateral.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  },
+  {
+    "id":12,
+    "nombre": "Caja de Herramientas Completa Stanley 150 Piezas",
+    "precio": 210000,
+    "stock": 10,
+    "marca": "Stanley",
+    "categoria": "Herramientas",
+    "detalles": "Maletín con llaves tubo, destornilladores, pinzas y llaves Allen en acero cromo vanadio.",
+    "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
+    "envio": true
+  }
+]
