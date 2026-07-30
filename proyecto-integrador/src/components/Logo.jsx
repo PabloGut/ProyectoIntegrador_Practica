@@ -1,5 +1,14 @@
 const Logo = ()=>{
     return (
-        <img src="/images/logo-fravega.png" alt="Frávega"/>
+           <div className="container-fluid">
+                <div className="row">
+                    <div className="col text-center">
+                        <img src="/images/logo-fravega-2.png" alt="Frávega"/>
+                    </div>
+                </div>
+            </div>
     )
 }
+
+
+export default Logo
