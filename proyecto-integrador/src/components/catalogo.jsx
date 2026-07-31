@@ -1,8 +1,18 @@
+import productos from '../assets/productos.json'
+import Cards from './Cards'
 
 const Catalogo = ()=>{
-
+  console.log(productos)
     return (
-        <h1>Catálogo</h1>
+          <div className="container">
+            <div className="row">
+                    {
+                        productos.map( item =>(
+                            <Cards key={item.id} item={item}/>
+                        ))
+                    }
+            </div>
+        </div>
     )
 }
 

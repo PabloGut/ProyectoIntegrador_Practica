@@ -5,7 +5,7 @@ import NavBar from "./NavBar"
 const Header = () => {
     return(
 
-        <div className="container">
+        <div className="container-fluid bg-white pb-5">
             <div className="row">
                 <div className="col">
                     <Logo/>
