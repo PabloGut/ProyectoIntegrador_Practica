@@ -5,7 +5,7 @@
     "precio": 849999,
     "stock": 15,
     "marca": "Samsung",
-    "categoria": "TV",
+    "categoria": "tv",
     "detalles": "Resolución 4K, Procesador Crystal 4K, Sistema operativo Tizen, 3 puertos HDMI, 2 USB.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -16,7 +16,7 @@
     "precio": 520000,
     "stock": 8,
     "marca": "LG",
-    "categoria": "TV",
+    "categoria": "tv",
     "detalles": "Resolución Full HD, Inteligencia Artificial ThinQ, Control por voz, Bluetooth integrado.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -27,7 +27,7 @@
     "precio": 1250000,
     "stock": 4,
     "marca": "Philips",
-    "categoria": "TV",
+    "categoria": "tv",
     "detalles": "Tecnología Ambilight de 3 lados, Dolby Vision y Dolby Atmos, Android TV.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": false
@@ -38,7 +38,7 @@
     "precio": 1450000,
     "stock": 6,
     "marca": "Whirlpool",
-    "categoria": "Electrodomésticos",
+    "categoria": "electrodomésticos",
     "detalles": "Capacidad 400 litros, Eficiencia energética A++, Tecnología Inverter, Compartimento extra frío.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": false
@@ -49,7 +49,7 @@
     "precio": 780000,
     "stock": 12,
     "marca": "Drean",
-    "categoria": "Electrodomésticos",
+    "categoria": "electrodomésticos",
     "detalles": "Capacidad de carga 8kg, 1200 RPM de centrifugado, 34 combinaciones de lavado, Display digital.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -60,7 +60,7 @@
     "precio": 185000,
     "stock": 25,
     "marca": "BGH",
-    "categoria": "Electrodomésticos",
+    "categoria": "electrodomésticos",
     "detalles": "Capacidad 20 litros, 5 niveles de potencia, Función descongelamiento automático, Reloj digital.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -71,7 +71,7 @@
     "precio": 920000,
     "stock": 5,
     "marca": "Olmo",
-    "categoria": "Deportes",
+    "categoria": "deportes",
     "detalles": "Motor de 2.0 HP, Velocidad hasta 16 km/h, 12 programas preestablecidos, Pantalla LCD.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": false
@@ -82,7 +82,7 @@
     "precio": 340000,
     "stock": 14,
     "marca": "Randers",
-    "categoria": "Deportes",
+    "categoria": "deportes",
     "detalles": "Sistema magnético, 8 niveles de esfuerzo, Monitor digital de pulso, tiempo y calorías.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -93,7 +93,7 @@
     "precio": 680000,
     "stock": 3,
     "marca": "Gomon",
-    "categoria": "Deportes",
+    "categoria": "deportes",
     "detalles": "Torre de pesas de 45kg, Permite trabajar piernas, pecho, brazos y espalda, Estructura reforzada.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": false
@@ -104,7 +104,7 @@
     "precio": 295000,
     "stock": 20,
     "marca": "DeWalt",
-    "categoria": "Herramientas",
+    "categoria": "herramientas",
     "detalles": "Mandril de 13mm, 2 velocidades mecánicas, Incluye 2 baterías de litio y maletín rígido.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
@@ -115,18 +115,18 @@
     "precio": 115000,
     "stock": 18,
     "marca": "Bosch",
-    "categoria": "Herramientas",
+    "categoria": "herramientas",
     "detalles": "Potencia de 700W, Diámetro del disco 115mm, Guarda de protección integrada, Mango lateral.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true
   },
   {
     "id":12,
-    "nombre": "Caja de Herramientas Completa Stanley 150 Piezas",
+    "nombre": "Caja de herramientas Completa Stanley 150 Piezas",
     "precio": 210000,
     "stock": 10,
     "marca": "Stanley",
-    "categoria": "Herramientas",
+    "categoria": "herramientas",
     "detalles": "Maletín con llaves tubo, destornilladores, pinzas y llaves Allen en acero cromo vanadio.",
     "foto": "https://images.fravega.com/f500/c3359ca9155c1352bd078116afe18491.jpg",
     "envio": true

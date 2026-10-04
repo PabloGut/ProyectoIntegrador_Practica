@@ -1,10 +1,18 @@
-import productos from '../assets/productos.json'
+import { useEffect, useState } from 'react'
+import productosJSON from '../assets/productos.json'
 import Cards from './Cards'
+import { useParams } from 'react-router-dom'
 
 const Catalogo = ()=>{
    // const productos = []
+    const [items,setItems] = useState(productosJSON)
+    const {categoria} = useParams()
 
-    if(productos.length ==0){
+    useEffect(()=>{
+       setItems(categoria ? productosJSON.filter(item=> item.categoria == categoria): productosJSON)
+    }, [categoria])
+
+    if(items.length ==0){
         return (
             <div className="container py-5">
                 <div className="row">
@@ -24,7 +32,7 @@ const Catalogo = ()=>{
           <div className="container my-5">
             <div className="row">
                     {
-                        productos.map( item =>(
+                        items.map( item =>(
                             <Cards key={item.id} item={item}/>
                         ))
                     }

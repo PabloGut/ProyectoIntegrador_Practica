@@ -3,14 +3,27 @@ import Catalogo from "./components/Catalogo"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Alta from "./components/Alta"
+import {Routes, Route} from "react-router-dom"
+
+/*
+npm i react-router-dom 
+*/
+
+/*
+Min 1:15:04
+*/
 function App() {
 
   return (
     <>
      <Header/>
-     <Alta/>
-     <CarritoDeCompras/>
-     <Catalogo/>
+     <Routes>
+      <Route path={"/"} element={ <Catalogo/>}/>
+      <Route path={"/productos"} element={ <Catalogo/>}/>
+      <Route path={"/productos/:categoria"} element={ <Catalogo/>}/>
+      <Route path={"/alta"} element={<Alta/>}/>
+      <Route path={"/carrito"} element={<CarritoDeCompras/>}/>
+     </Routes>
      <Footer/>
     </>
   )

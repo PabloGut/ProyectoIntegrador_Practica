@@ -1,6 +1,11 @@
 
 
 const Cards = ({item})=>{
+
+    const agregarProductoCarrito = (id) =>{
+        console.log("El producto # "+id+" se agrego al carrito")
+    }
+
     return (
                 <div className="col-md-3 mb-4">
                     <div className="card">
@@ -9,7 +14,7 @@ const Cards = ({item})=>{
                             <p className="card-title">{item.nombre}</p>
                             <h5><b>${item.precio}</b></h5>
                             {item.envio && <span className="badge text-bg-success mb-3">Envío <b>Grátis</b></span>}
-                            <a href="#" className="btn bg-secondary-subtle colorVioleta btn-lg w-100">Agregar al Carrito</a>
+                            <a href="#" className="btn bg-secondary-subtle colorVioleta btn-lg w-100" onClick={()=>{agregarProductoCarrito(item.id)}}>Agregar al Carrito</a>
                         </div>
                     </div>
                 </div>
