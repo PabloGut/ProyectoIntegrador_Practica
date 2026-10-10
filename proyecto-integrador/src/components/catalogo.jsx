@@ -29,15 +29,17 @@ const Catalogo = ()=>{
 
 
     return (
-          <div className="container my-5">
-            <div className="row">
-                    {
-                        items.map( item =>(
-                            <Cards key={item.id} item={item}/>
-                        ))
-                    }
-            </div>
-        </div>
+            <div className="container-fluid bg-light py-5">
+                <div className="container my-5">
+                    <div className="row">
+                        {
+                            items.map( item =>(
+                                <Cards key={item.id} item={item}/>
+                            ))
+                        }
+                    </div>
+                </div>
+           </div>
     )
 }
 

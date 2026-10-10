@@ -1,8 +1,10 @@
-body{
-    background-color: lightgray;
-}
 
 .colorVioleta {
     color: #871ee3;
     font-weight: bold;
+}
+
+.btnColorVioleta {
+    color:white;
+    background-color: #871ee3;
 }

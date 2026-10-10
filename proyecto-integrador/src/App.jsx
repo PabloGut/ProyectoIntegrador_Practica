@@ -10,7 +10,7 @@ npm i react-router-dom
 */
 
 /*
-Min 1:15:04
+Min 2:01:56 programar eliminar producto del carrito
 */
 function App() {
 

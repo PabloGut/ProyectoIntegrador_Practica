@@ -1,6 +1,9 @@
+import { useContext } from "react"
 import { NavLink } from "react-router-dom"
+import { CartContext } from "./Context/CartContext"
 
 const NavBar = ()=>{
+    const {totalProductosCarrito} = useContext(CartContext)
     return (
           <div className="container">
             <div className="row">
@@ -22,7 +25,11 @@ const NavBar = ()=>{
                             <NavLink to="/alta" className="nav-link text-black">Alta</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/carrito" className="nav-link text-black">Carrito</NavLink>
+                            <NavLink to="/carrito" className="nav-link text-black position-relative">
+                            <i className="bi bi-cart"></i>{totalProductosCarrito() > 0 ? 
+                            <span className="position-absolute top-0 start-100 translate-middle badge 
+                            rounded-pill bg-danger"> {totalProductosCarrito()}</span> : ""}
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
