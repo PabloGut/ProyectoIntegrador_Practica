@@ -1,18 +1,19 @@
-import { useEffect, useState } from 'react'
-import productosJSON from '../assets/productos.json'
+import { useContext, useEffect, useState } from 'react'
 import Cards from './Cards'
 import { useParams } from 'react-router-dom'
+import { CartContext } from './Context/CartContext'
 
 const Catalogo = ()=>{
    // const productos = []
-    const [items,setItems] = useState(productosJSON)
+    const {productos} = useContext(CartContext)
+    const [items,setItems] = useState([])
     const {categoria} = useParams()
 
     useEffect(()=>{
-       setItems(categoria ? productosJSON.filter(item=> item.categoria == categoria): productosJSON)
+       setItems(categoria ? productos.filter(item=> item.categoria == categoria): productos)
     }, [categoria])
 
-    if(items.length ==0){
+    if(productos.length ==0){
         return (
             <div className="container py-5">
                 <div className="row">
@@ -33,7 +34,7 @@ const Catalogo = ()=>{
                 <div className="container my-5">
                     <div className="row">
                         {
-                            items.map( item =>(
+                            productos.map( item =>(
                                 <Cards key={item.id} item={item}/>
                             ))
                         }

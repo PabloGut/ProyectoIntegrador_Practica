@@ -1,11 +1,21 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import productosJSON from "../../assets/productos.json"
+import mockAPI from "../mockAPI";
 
 export const CartContext = createContext("")
 // No entiendo de donde sale la propiedad cantidad, no esta en el json, se agrega cuando se agrega el producto al carrito. DOnde se agrega la propiedad cantidad? se agrega en la funcion agregarProductoAlCarrito, cuando se agrega un producto al carrito, se le agrega la propiedad cantidad al objeto producto.
 const CartContextProvider = ({children}) => {
     const [productos, setProductos] = useState(productosJSON)
     const [carrito, setCarrito] = useState([])
+
+    useEffect(() => {
+        (async () => {
+            const response = await mockAPI.get("/productos")
+            console.log(response.data)
+            setProductos(response.data)
+        })()
+    }, [])
+
  //producto.cantidad , cantidad es una propiedad que se le agrega al objeto producto para poder llevar la cuenta de cuantas unidades de ese producto hay en el carrito. DOnde est el atributo cantidad? no esta en el json, se agrega cuando se agrega el producto al carrito.
  //La linea de codigo donde se agrega la propiedad cantidad al objeto producto es: producto.cantidad = 1, en la funcion agregarProductoAlCarrito, cuando se agrega un producto al carrito, se le agrega la propiedad cantidad al objeto producto. 
  // Es decir con la linea de codigo producto.cantidad = 1, se le agrega la propiedad cantidad al objeto producto, y se le asigna el valor 1, que es la cantidad inicial de ese producto en el carrito.
