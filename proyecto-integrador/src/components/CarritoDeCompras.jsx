@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import productos from '../assets/productos.json'
 import { CartContext } from './Context/CartContext'
 import { Link } from 'react-router-dom'
-
+import CarritoVacio from "./CarritoVacio";
 
 const CarritoDeCompras = () => {
     const{carrito,vaciarCarrito, eliminarProductoDelCarrito,totalProductosCarrito, sumarProductosCarrito, 
@@ -11,16 +11,7 @@ const CarritoDeCompras = () => {
 
     if(totalProductosCarrito() ==0){
         return (
-            <div className="container py-5">
-                <div className="row">
-                    <div className="col">
-                            <h1 className="fw-bold mb-5">Mi carrito</h1>
-                            <h3 className="fw-bold">Su carrito está vacío!</h3>
-                            <p className="fw-light">Para seguir comprando, navegar por las categorias en el sitio, o busque su producto</p>
-                            <p> <Link to={"/productos"} className="btn btnColorVioleta"> ELEGIR PRODUCTOS </Link> </p>
-                    </div>
-                </div>
-            </div>
+           <CarritoVacio/>
         )
     }
     return (
@@ -62,7 +53,7 @@ const CarritoDeCompras = () => {
                            <tr>
                             <td className="align-middle" colSpan={5}><b>Total a pagar</b></td>
                             <td className="align-middle text-center"><b>${sumarProductosCarrito()}</b></td>
-                            <td>&nbsp;</td>
+                            <td className="align-middle text-end"><Link to={"/checkout"} className="btn bg-secondary-subtle colorVioleta btn-sm">Terminar Compra</Link></td>
                            </tr>
                         </tbody>
                     </table>

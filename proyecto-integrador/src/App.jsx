@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Alta from "./components/Alta"
 import {Routes, Route} from "react-router-dom"
+import Checkout from "./components/Context/Checkout"
 
 /*
 npm i react-router-dom 
@@ -23,6 +24,7 @@ function App() {
       <Route path={"/productos/:categoria"} element={ <Catalogo/>}/>
       <Route path={"/alta"} element={<Alta/>}/>
       <Route path={"/carrito"} element={<CarritoDeCompras/>}/>
+      <Route path={"/checkout"} element={<Checkout/>}/>
      </Routes>
      <Footer/>
     </>

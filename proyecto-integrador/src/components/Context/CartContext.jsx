@@ -63,6 +63,10 @@ const CartContextProvider = ({children}) => {
             setCarrito([...carrito])
         } 
     }
+    const generarPedidoCarrito = async(pedido) => {
+       return await mockAPI.post("/pedidos",pedido)
+    }
+
     const totalProductosCarrito = () => {
         return carrito.reduce((acum,item) => acum += item.cantidad,0)
     }
@@ -72,7 +76,7 @@ const CartContextProvider = ({children}) => {
     }
 
     return <CartContext.Provider value={{productos, carrito, agregarProductoAlCarrito, eliminarProductoDelCarrito, vaciarCarrito,
-             totalProductosCarrito, sumarProductosCarrito, incrementarItems, decrementarItems}}>
+             totalProductosCarrito, sumarProductosCarrito, incrementarItems, decrementarItems,generarPedidoCarrito}}>
             {children}
     </CartContext.Provider>
     

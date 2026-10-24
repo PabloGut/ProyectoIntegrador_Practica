@@ -11,7 +11,7 @@ const Catalogo = ()=>{
 
     useEffect(()=>{
        setItems(categoria ? productos.filter(item=> item.categoria == categoria): productos)
-    }, [categoria])
+    }, [productos,categoria])
 
     if(productos.length ==0){
         return (
